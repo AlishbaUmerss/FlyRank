@@ -50,3 +50,14 @@ Examples:
 
 - Ask before making destructive changes.
 
+## Project Rules
+
+1. Every form feature must include tests for validation failures, valid submission, and reset behavior.
+
+2. Every user-facing form control must have an associated label, and validation errors must use appropriate accessible attributes such as aria-invalid and aria-describedby.
+
+3. Every new feature must pass npm test, npm run lint, and npm run build before it is considered complete.
+
+4. AI-generated changes must be reviewed and verified before they are accepted.
+
+5. AI agents must not modify unrelated project files unless the change is required by the feature.
