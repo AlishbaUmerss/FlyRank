@@ -1,23 +1,16 @@
-# AI Assignment
+# React + Vite
 
-## About
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This is my first assignment for the AI assisted frontend development track.
+Currently, two official plugins are available:
 
-I am using Cursor to help with development while practicing Git and GitHub.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Technologies
+## React Compiler
 
-- Node.js
-- JavaScript
-- Git
-- GitHub
-- Cursor
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Development Practices
+## Expanding the ESLint configuration
 
-I will use AI assistance for planning, coding, reviewing, and improving the project while keeping the code readable and maintainable.
-
-## Current setup
-
-Project scaffolding is in progress. Setup instructions will be added as the application is built.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
